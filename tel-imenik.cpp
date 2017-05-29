@@ -42,12 +42,12 @@ int main()
             cout << "prezime i ime" << "\t" << "broj telefona" << "\t" << "adresa" << endl;
             for( int i = 0; i < brojOsoba; i++ )
             {
-                cout << prezimeIme[i] << endl;
+                cout << prezimeIme[i]<<"\t"<<brojTelefona[i]<<"\t"<<"\t"<<adresa[i]<<endl;
             }
         }
         else if( izbor == 3 )
         {
-            cout
+
         }
         else if( izbor == 4 )
         {
