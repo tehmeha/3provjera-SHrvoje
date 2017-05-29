@@ -35,6 +35,9 @@ int main()
             cout<<"Unesite adresu:";
             cin.ignore();
             getline(cin,adresa[brojOsoba]);
+            datotekaUpisivanje.open("imenik.txt",ios::app);
+            datotekaUpisivanje<<prezimeIme[brojOsoba]<<endl;
+            datotekaUpisivanje.close();
             brojOsoba++;
         }
         else if( izbor == 2 )
@@ -90,6 +93,7 @@ int main()
         else if( izbor == 5 )
         {
         }
+
         else if( izbor == 6 )
         {
         }
